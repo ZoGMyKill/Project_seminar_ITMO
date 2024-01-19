@@ -4,13 +4,13 @@ import requests
 from PIL import Image
 from io import BytesIO
 
-# Путь к изображению внутри вашей папки проекта
-header_image_path = "/home/aat71/Desktop/Proj_sem/frontend/header.png"
+# Путь к изображению внутри докера
+header_url = "/app/header.png"
 
-# Вставьте изображение как шапку сайта
-st.image(header_image_path, use_column_width=True)
+# Изображение как шапка сайта
+st.image(header_url, use_column_width=True)
 
-st.title('Загрузка изображения для обработки')
+st.title('Сегментация спутниковых снимков для обнаружения метана')
 
 uploaded_file = st.file_uploader("Выберите изображение...", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
