@@ -37,3 +37,4 @@
 # Полезные мытериалы
 
 [Все вегетативные индексы](https://www.indexdatabase.de/db/i.php)
+[Учебник по интерпритации спутниковых снимков](http://www.psu.ru/files/docs/science/books/uchebnie-posobiya/shikhov-gerasimov-ponomarchuk-perminova-tematicheskoe-deshifrovanie-i-interpretaciya-kosmicheskih-snimkov.pdf)
